@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Your Route</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .btn {
+            display: block;
+            width: 250px;
+            margin: 15px auto;
+            padding: 15px;
+            font-size: 18px;
+            background: #2b7cff;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Choose Your Destination</h1>
+
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Changi+Airport&destination=Marina+Bay+Sands">
+        Route 1: Marina Bay Sands
+    </a>
+
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Changi+Airport&destination=Sentosa">
+        Route 2: Sentosa
+    </a>
+
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&origin=Changi+Airport&destination=Orchard+Road">
+        Route 3: Orchard Road
+    </a>
+
+</body>
+</html>
